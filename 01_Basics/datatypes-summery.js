@@ -39,3 +39,23 @@ const myFunction = function(){
 // const const1 = 5522
 // console.log(typeof score);
 // console.log(myFunction)
+
+//+++++++++++++++++++++++++++++++++++++
+//stack (premitive), Heap(non-premitive)
+//example
+let myYoutubeName = "ashish kumar"
+let anothername = myYoutubeName
+anothername = "chaiaurcode"
+console.log(myYoutubeName);
+console.log(anothername);
+
+let userOne = {
+    email: "ashish@123",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "ashishkumar@123"
+console.log(userOne.email);
+console.log(userTwo.email);
+
