@@ -21,7 +21,7 @@ const myHeros = ["ironman","shaktiman","spiderman"]
 // console.log(myArr.includes());
 // console.log(myArr.indexOf(3));
 
-// const newArr = myArr.join()
+// const newArr = myArr.join()  //convert the array into string
 
 // console.log(myArr); 
 // console.log(newArr);
