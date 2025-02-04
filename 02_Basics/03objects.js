@@ -12,7 +12,6 @@ const jsUser = {
     email: "ashish@gmail.com",
     isLoggedIn: false,
     lastLoggedInDays: ["Monday", "wednesday"]
-
     
 }
 
@@ -28,9 +27,15 @@ jsUser.email = "kr3164ashish@gmail.com"
 jsUser.email = "mekumar@gmail.com"
 // console.log(jsUser.email);
 
-jsUser.myfunction=function(){
+jsUser.greeting = function(){
     console.log("hello this is ashish");
 }
 
 // jsUser.myfunction();
-console.log(jsUser.myfunction());
+console.log(jsUser.greeting());
+
+jsUser.greetingTwo = function(){
+    console.log(`Hello js user this is ${this.name}`); 
+}
+
+console.log(jsUser.greetingTwo()); 
