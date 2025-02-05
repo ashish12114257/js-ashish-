@@ -51,3 +51,28 @@ const user = [
 
 // console.log(tinderUser.hasOwnProperty("isLoggedIn")); 
 
+const course = {
+    courseName: "javaScript in hindi",
+    courseInstructure: "Hitesh sir",
+    price: "5452"
+}
+
+// console.log(course.courseInstructure);     // if we want to print again and again, below is the other method to access
+
+const {courseInstructure: ins} = course
+// console.log(courseInstructure);
+console.log(ins); 
+
+// API
+// {
+//    " name": "ashish",
+//     "roll": 25,
+//     "course": "b.tech",
+//     "university": "lpu"
+// }
+
+[
+    {},
+    {},
+    {}
+]
